@@ -1,0 +1,43 @@
+/* container */
+.container {
+    width: 400px;
+}
+
+/* screen */
+.screen {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background: #b61066;
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    width: 100px;
+    height: 80px;
+    border: none;
+    outline: 0;
+    color: black;
+    background: #ff9ed0;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid rgb(92, 92, 92);
+}
+
+.buttons button.color {
+    background-color: #8debf8;
+    color: #262834;
+    font-weight: 500;
+}
+
+.buttons button.width {
+    width: 200px;
+}
